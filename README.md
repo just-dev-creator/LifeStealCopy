@@ -15,7 +15,9 @@
     <a href="https://github.com/just-dev-creator/LifeStealCopy/issues">Request Feature</a>
   </p>
 
-![Downloads](https://img.shields.io/github/downloads/just-dev-creator/LifeStealCopy/total) ![Issues](https://img.shields.io/github/issues/just-dev-creator/LifeStealCopy) ![License](https://img.shields.io/github/license/just-dev-creator/LifeStealCopy)
+[comment]: <> (![Downloads]&#40;https://img.shields.io/github/downloads/just-dev-creator/LifeStealCopy/total?style=for-the-badge&#41;)
+![Issues](https://img.shields.io/github/issues/just-dev-creator/LifeStealCopy?style=for-the-badge&logo=GitHub)
+![License](https://img.shields.io/github/license/just-dev-creator/LifeStealCopy?style=for-the-badge&logo=apache)
 
 ## Table Of Contents
 
