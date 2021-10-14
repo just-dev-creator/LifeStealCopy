@@ -27,6 +27,7 @@
     * [Prerequisites](#prerequisites)
     * [Installation](#installation)
 * [Usage](#usage)
+    * [Removing the admin-abuse protections](#removing-the-admin-abuse-protections)
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
@@ -76,6 +77,16 @@ git clone https://github.com/just-dev-creator/LifeStealCopy.git && cd LifeStealC
 Build the project using the following command:
 ```sh
 ./gradlew shadowJar
+```
+
+### Removing the admin-abuse protections
+To remove the admin abuse protection, comment out these two lines in the `Main.kt` file:
+```kotlin
+//        To remove all protection against admin abuse, remove the following lines of code.
+        pluginManager.registerEvents(GamemodeListener(), this);
+        pluginManager.registerEvents(JoinListener(), this);
+        pluginManager.registerEvents(ServerCommandEvent(), this);
+//        End of protection
 ```
 
 ## Contributing
